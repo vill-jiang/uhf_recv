@@ -669,8 +669,8 @@ menu_static_str_map = {
 }
 menu_static_val_type_list = {
   'RETURN': (MENU_ITEM_TYPE_BACK, 'RETURN', None),
-  'AFreqKhz': (MENU_ITEM_TYPE_INT32, 'FreqKhz', [0, 740150, 769850, 100]),
-  'BFreqKhz': (MENU_ITEM_TYPE_INT32, 'FreqKhz', [0, 770450, 799850, 100]),
+  'AFreqKhz': (MENU_ITEM_TYPE_INT32, 'FreqKhz', [0, 600000, 800000, 100]),  # 740150, 769850
+  'BFreqKhz': (MENU_ITEM_TYPE_INT32, 'FreqKhz', [0, 600000, 800000, 100]),  # 770450, 799850
   'Volume': (MENU_ITEM_TYPE_INT8, 'Volume', [4, 0, 31, 1]),
   'Echo': (MENU_ITEM_TYPE_STRENUM, 'Echo', [5, 'OFF', 2]),
   'EchoRatio': (MENU_ITEM_TYPE_INT8, 'EchoRatio',[6, 0, 25, 1]),

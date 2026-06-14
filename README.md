@@ -33,6 +33,11 @@ https://oshwhub.com/xytoki/wmic-kt06 给了我很大的信心和真正的帮助,
 
 ![正面装配图](img/asm_preview.png) ![背面装配图](img/asm_preview_back.png)
 
+|  |  |
+| ---- | ---- |
+| ![正面装配图](img/asm_preview.png) | ![背面装配图](img/asm_preview_back.png) |
+| ![实物图1](img/product_image.jpg) | ![实物图2](img/product_image_left.jpg) |
+
 ## 项目结构
 
 ## 技术实现
