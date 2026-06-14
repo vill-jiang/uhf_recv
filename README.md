@@ -31,8 +31,6 @@ https://oshwhub.com/xytoki/wmic-kt06 给了我很大的信心和真正的帮助,
 
 ### 外观特征
 
-![正面装配图](img/asm_preview.png) ![背面装配图](img/asm_preview_back.png)
-
 |  |  |
 | ---- | ---- |
 | ![正面装配图](img/asm_preview.png) | ![背面装配图](img/asm_preview_back.png) |
