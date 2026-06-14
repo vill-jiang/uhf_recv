@@ -466,3 +466,7 @@ protocol_database = [...
 
 - **xytoki**: 提供了KT06xx系列的探索和开源代码及文档
 - **STC官方**: 提供了完善的主控的开发资料和技术支持
+
+## 许可证
+
+完整许可证文本见 [LICENSE](./LICENSE) 文件。
