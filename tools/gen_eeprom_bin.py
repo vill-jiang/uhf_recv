@@ -23,12 +23,12 @@ kt0656m_const_set = {
 # FAST_RSSI_MUTE_EN: 0 DISABLE, 1 ENABLE
 # FAST_RSSI_PD_MUTE_EN: 0 DISABLE, 1 ENABLE
 # SUPER_RSSI_MUTE_EN: 0 DISABLE, 1 ENABLE
-'AUTO_MUTE_CONTROL': (1 << 6) | (1 << 5) | (1 << 4),  # (FAST_RSSI_MUTE_EN << 6) | (FAST_RSSI_PD_MUTE_EN << 5) | (SUPER_RSSI_MUTE_EN << 4)
+'AUTO_MUTE_CONTROL': (0 << 6) | (0 << 5) | (0 << 4),  # (FAST_RSSI_MUTE_EN << 6) | (FAST_RSSI_PD_MUTE_EN << 5) | (SUPER_RSSI_MUTE_EN << 4)
 'AUTOMUTE_SNR_LOWTH': 0x78,
 'AUTOMUTE_SNR_HIGHTH': 0x80,
 'AUTOMUTE_SNR_EN': 0x20,  # (AUTOMUTE_SNR_EN << 5)
 'PILOT_FLAG': 0x00,  # (PILOT_FLAG << 7)
-'DC_NOTCH_MUTE_EN': 0xF0,  # 0xF0 DISABLE, 0xF1 ENABLE
+'DC_NOTCH_MUTE_EN': 0xF1,  # 0xF0 DISABLE, 0xF1 ENABLE
 # SQUEAL_ELIM_EN: 0 DISABLE, 1 ENABLE
 # SQEUAL_DET_EN: 0 DISABLE, 3 ENABLE
 # FNOTCH_NOTRESP_TH: 0 1/4, 1 1/2
@@ -703,7 +703,7 @@ menu_static_val_type_list = {
 # FreqKhz Volume Echo EchoRatio EchoDelay Exciter ExciterOdd ExciterEven
 # EQ 25Hz 40Hz 63Hz 100Hz 160Hz 250Hz 400Hz 630Hz 1KHz 1_6KHz 2_5KHz 4KHz 6_3KHz 10KHz 16KHz
 ram_default_data_channel_a = [
-  740150, 31, 1, 10, 18, 1, 1, 1,
+  740450, 31, 1, 10, 18, 1, 1, 1,
   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 ]
 ram_default_data_channel_b = [
