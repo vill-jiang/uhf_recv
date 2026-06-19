@@ -67,9 +67,10 @@ COMx_InitDefine __xdata uart_init = {
     I2C_Init(&i2c_init);
     ssd1106_init();
     ssd1106_fillscreen(0);
-    // UART初始化
+    // UART初始化X
     UART1_SW(UART1_SW_P30_P31);
     UART_Configuration(UART1, &uart_init);
+    TX1_write2buff('X');
     ES = 1;
     EA = 1;
     // 关灯
